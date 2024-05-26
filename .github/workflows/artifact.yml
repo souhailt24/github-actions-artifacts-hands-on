@@ -19,7 +19,7 @@ jobs:
         name: hello-artifact
         path: hello.txt
   download:
-  needs: build
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: download
